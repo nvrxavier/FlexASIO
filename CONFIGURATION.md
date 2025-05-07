@@ -63,7 +63,7 @@ starting point for low latency operation:
 
 ```toml
 backend = "Windows WASAPI"
-bufferSizeSamples = 480
+bufferSizeSamples = 128
 
 [input]
 suggestedLatencySeconds = 0.0
